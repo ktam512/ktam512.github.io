@@ -1,0 +1,53 @@
+/* clear 1 số thuộc tính vể trạng thái ban đầu */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/* Auto xuat hien neu trang web co anh */
+img {
+    max-width:100%;
+    display: block;
+    margin: auto;
+}
+.card {
+    width: 320px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    overflow:hidden;
+}
+.content {
+    padding: 20px;
+}
+.title {
+    font-size: 19px;
+    color: #464646;
+    font-weight: 400;
+}
+.type, .rating {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 100;
+}
+
+.type {
+    margin:10px 0;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.rating span {
+    color: #ffd600;
+}
+div.footer {
+    div: .footer .item
+    h2
+    ul
+    li->text
+    li->a
+
+}

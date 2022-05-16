@@ -1,0 +1,38 @@
+h2 {
+    color:red;
+}
+
+#heading {
+    color:blue;
+}
+
+
+p {
+    color:cornflowerblue;
+}
+.text {
+    background-color: bisque;
+}
+p.text.text1 {
+    font-size: 18px;
+}
+.text1 {
+    font-size: 26px;
+}
+
+.text.text1 {
+    font-size: 20px;
+}
+.box p {
+    font-weight:bold;
+}
+h2, p {
+    text-align: center;
+}
+#heading + .box {
+    background-color: cadetblue;
+}
+/* Chọn class "text" ngay sau thẻ p */
+p ~ .text {
+    font-style: italic;
+}
