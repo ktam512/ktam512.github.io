@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.class-info {
+  width: calc(100% - 160px);
+  padding: 1rem 1.5rem 0 1.5rem;
+  min-height: 160px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+  margin-bottom: 20px;
+}
+body {
+  background-color: #f4f7fa;
+  color: #464646;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+.class-time {
+  text-align: center;
+  width: calc(100% - 160px);
+  min-height: 160px;
+  color: #fff;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  font-weight: 300;
+  background-color: #fe6d3f;
+  margin-top: 20px;
+}
+.class-year {
+  border-top-left-radius: 4px;
+  padding: 3px 0;
+  background-color: #ef5321;
+}
+.class-date {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  padding: 30px 0px 0px 0px;
+}
+a {
+  color: #464646;
+  text-decoration: none;
+  background-color: transparent;
+}
+.class-title {
+  font-size: 1.3rem;
+}
+.timetable {
+  padding: 7px 0;
+  font-size: 0.9rem;
+}
+.timetable-item {
+  width: 100%;
+  margin-top: 5px;
+}
+.register {
+  padding: 7px 0 5px 0;
+  color: #3c78e8;
+  font-weight: 300;
+  border-top: 0.5px solid #c4c4c4e3;
+  cursor: pointer;
+}
+html {
+  display: block;
+}
