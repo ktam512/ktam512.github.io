@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.item {
+    width: 100px;
+    height:100px;
+    color:white;
+    background-color: orange;
+    font-size: 2rem;
+
+    border : 2px solid black;
+    /* text-align: center;
+    line-height: 100px; */
+    /* Nhuoc diem cua cach line-height la neu co nhieu dong thi no se khong vao giua */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* dung justify-content:center va align-items:center se lam cho chu o giua */
+}
+.container {
+    background-color: bisque;
+    display:flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height:600px;
+    align-items: flex-start;
+    align-content:flex-end;
+    
+}
+/* Cai quan trong nhat trong item la basis */
+/* 3 cai hay dung trong item la basis, align self va order */
