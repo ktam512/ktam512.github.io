@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+.box {
+    width:200px;
+    height:100px;
+    background-color: chocolate;
+
+    position: relative;
+    top:50px;
+    left:50px;
+    z-index: 3;
+}
+.parent {
+    width:1000px;
+    height:400px;
+    background-color: bisque;
+
+    position:relative;
+    z-index: 4;
+}
+.child {
+    width:100px;
+    height:100px;
+    background-color:blueviolet;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.btn-top {
+    padding:10px 30px;
+    background-color: tomato;
+    color:white;
+    border:none;
+
+    position:fixed;
+    right:50px;
+    bottom:50px;
+}
+body {
+    height:2000px;
+}
+
+.sticky {
+    height:100px;
+    background-color:darkorange;
+
+    position:sticky;
+    top: 50px;
+    left:0';
+
+}
