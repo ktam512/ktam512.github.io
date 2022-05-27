@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+.box {
+    width:200px;
+    height:200px;
+    background-color:chocolate;
+
+    /* transition-property:width, height;
+    transition-duration: 1s, 2s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out; */
+
+    transition: all 1s ease-in-out 1s;
+}
+
+.box:hover {
+    width:400px;
+    height:400px;
+}
+
+.text {
+    width:400px;
+    padding:20px;
+    background-color: bisque;
+}
+
+.text {
+    margin:auto;
+ overflow: hidden; 
+
+
+}
+
+
+/* .text p {
+    transform: translateX(430px);
+    opacity: 0;
+
+    transition: all 1s;
+}
+
+.text:hover p {
+    transform:translateX(0px);
+    opacity: 1;
+} */
+
+/* Thực hành:
+1.Sử dụng thuộc tính position để làm hiệu ứng tương tự
+2.Bổ sung thêm 1 thẻ h2 nội dung bất kỳ, làm tương tự như thẻ p nhưng đi từ trái vào */
+
+.text p {
+    position:relative;
+    left:430px;
+    top:0px;
+
+    transition: all 1s;
+}
+
+.text:hover p {
+    left:0px;
+}
+
+.notebook {
+    width:400px;
+    padding:20px;
+    background-color: greenyellow;
+}
+
+.notebook {
+    margin:auto;
+    overflow: hidden;
+}
+
+.notebook h2 {
+    position:relative;
+    right:430px;
+    top:0px;
+
+    transition: all 1s;
+}
+
+.notebook:hover h2 {
+    right:0px;
+}
+
+
+
+
