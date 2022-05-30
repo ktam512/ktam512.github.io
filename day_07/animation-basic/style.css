@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* .box {
+    width: 200px;
+    height:200px;
+    background-color: darkorange;
+/* animation property */
+    /* animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-fill-mode: forwards; */
+    /* animation: animation 2s 1s 2 none;
+    position: relative;}  */
+
+
+/* @keyframes animation {
+    0% {
+        top:0;
+        left:0;
+    }
+    25% {
+        top:0;
+        left:300px;
+        background-color: black;
+
+    }
+    50% {
+        top:300px;
+        left:300px;
+        background-color: blue;
+    }
+    75% {
+        top:300px;
+        left:0;
+        background-color: red;
+    }
+    100% {
+        top:0;
+        left:0;
+        background-color: darkviolet;
+ 
+    }
+    
+} */
+
+/* Banner */
+.banner {
+    height:600px;
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.banner1 {
+    background-image: url(https://images.unsplash.com/photo-1613076807974-cd4aa34748e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+
+.banner2 {
+    background-image: url(https://images.unsplash.com/photo-1555474258-ee7cefbcbd82?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+}
+
+.banner3 {
+    background-image: url(https://images.unsplash.com/photo-1593839154339-377e24b3ba32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=904&q=80);
+}
+
+.content {
+    width: 600px;
+    text-align: center;
+
+}
+
+.content h2 {
+    animation: heading 2s ;
+}
+
+.content p {
+    animation: text 2s ;
+}
+@keyframes heading {
+    0% {
+        transform: translateX(-300px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0px) ;
+        opacity:1;
+    }
+}
+
+@keyframes text {
+    0% {
+        transform: translateX(300px);
+        opacity:0;
+    }
+    100% {
+        transform: translateX(0px) ;
+        opacity:1;
+    }
+}
+
+/* Thu vien animate */
+
+.text {
+    text-align: center;
+    background-color: black;
+    color:white;
+    padding:100px 0;
+}
+
+.text h2 {
+    margin-bottom: 20px;
+}
+
+.animate__fadeInLeft {
+    animation:fadeInLeft ;
+    animation-duration: 2s;
+}

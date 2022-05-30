@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Basic</title>
+    <!-- Link thu vien CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Link CSS tu viet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- <div class="box"></div> -->
+    <div class="owl-carousel">
+      <div class="banner banner1">
+        <div class="content">
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos
+            magnam non id quasi eveniet, totam quibusdam adipisci! Eligendi,
+            molestias.
+          </h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo magni
+            hic blanditiis labore earum sapiente aliquid quod voluptas laborum
+            quasi.
+          </p>
+        </div>
+      </div>
+
+      <div class="banner banner2">
+        <div class="content">
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos
+            magnam non id quasi eveniet, totam quibusdam adipisci! Eligendi,
+            molestias.
+          </h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo magni
+            hic blanditiis labore earum sapiente aliquid quod voluptas laborum
+            quasi.
+          </p>
+        </div>
+      </div>
+
+      <div class="banner banner3">
+        <div class="content">
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos
+            magnam non id quasi eveniet, totam quibusdam adipisci! Eligendi,
+            molestias.
+          </h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo magni
+            hic blanditiis labore earum sapiente aliquid quod voluptas laborum
+            quasi.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="text">
+      <h2 class="animate__animated animate__fadeInLeft">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos magnam
+        non id quasi eveniet, totam quibusdam adipisci! Eligendi, molestias.
+      </h2>
+      <p class="animate__animated animate__fadeInRight">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo magni hic
+        blanditiis labore earum sapiente aliquid quod voluptas laborum quasi.
+      </p>
+    </div>
+
+    <!-- Link JS cua thu vien -->
+    <!-- Jquery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        item: 1,
+        loop: true,
+        nav: true,
+      });
+    </script>
+  </body>
+</html>

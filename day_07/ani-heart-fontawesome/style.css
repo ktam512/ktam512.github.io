@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0px;
+    background: red;
+    height: 600px;
+    display: flex;
+    align-items:center ;
+    
+}
+.container {
+    display: box;
+    margin: auto;
+    background-color: red;
+    
+}
+
+.fa-solid {
+    color: hsl(0, 0%, 90%);
+    font-size:150px;
+
+    animation: beating 1s 2s infinite;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    
+}
+
+@keyframes beating {
+    0% {
+        font-size:150px; 
+    }
+    50% {
+        font-size:200px;
+    }
+    100% {
+        font-size:150px; 
+    }
+}
+
